@@ -1,0 +1,14 @@
+There are several hosting options available for web applications. 
+
+1) Amazon Web Services (AWS) - 
+	This is a service hosted by Amazon (duh) that is scaleable. Pay-as-you-go with the option of paying up front and saving. 
+
+2) Google Cloud Platform
+	Free tier with limited use, start to pay as usage increases
+
+3) DigitalOcean
+
+4) Rackspace
+
+5) SoftLayer
+

@@ -1,0 +1,20 @@
+1) Meteor, with Angular JS front and and Mongo DB back end
+
+2) Ruby on Rails, front to back
+	
+	a) Install Choclatety. Don't worry, it's a package manager.
+		a.1) Run CMD as admin.
+		a.2) ~$@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+		a.3) choco install ruby
+		a.4) To update, ~$ choco upgrade ruby
+	b) Check version. ~$ ruby -v. 
+		b.1) From Stack Overflow: If you already installed ruby, you have to include correct path. Right click My Computer, click Properties, go to Advanced System Settings left navigation, click on Environment Variables... button, go to System Variables below, select Path, click Edit and in the beginning of the path enter: C:\Ruby200\bin; (Please note that in here you should indicate the ruby executable path. In case you installed ruby using Ruby installer for windows then the above mentioned path is correct).
+		b.2) This needs to be at least 2.2.2. If it's not, then find a different installer.
+	c) ~$ gem install rails
+		c.1) If that fails because of a certificate error, then do this:
+			~$ gem sources -r https://rubygems.org/
+			~$ gem sources -a http://rubygems.org/
+		     This will remove the secure source and replace it with an insecure sources, circumventing this problem. Not pretty, but it works. 
+	OR
+
+	c) choco install railsinstaller //I recommend this one

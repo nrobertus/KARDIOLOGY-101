@@ -18,3 +18,13 @@
 	OR
 
 	c) choco install railsinstaller //I recommend this one
+
+	d) in the CLI, navigate to the kardiology-rails folder
+
+	e) run 'bundle install' - This will install all the gems we are using.
+
+	f) run 'rake db:migrate RAILS_ENV=development' to migrate the database
+	
+	g) then run 'rails server' and you should be good to go. This will run on localhost:3005/
+
+

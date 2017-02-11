@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Google Auth Example App</title>
+    <title>Kardiology 101</title>
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
@@ -11,12 +11,17 @@
       <% if current_user %>
         Signed in as <strong><%= current_user.name %></strong>!
         <%= link_to "Sign out", signout_path, id: "sign_out" %>
+        <%= yield %>
+
+
       <% else %>
+        <h1><img src="../../assets/heart_through.svg"> Kardiology 101</h1>
+        Looks like you aren't signed in. Please go ahead and do that. <br>
         <%= link_to "Sign in with Google", "/auth/google_oauth2", id: "sign_in" %>
       <% end %>
     </div>
     <div>
-    <%= yield %>
+
     </div>
   </body>
 </html>

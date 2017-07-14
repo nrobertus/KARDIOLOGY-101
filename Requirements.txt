@@ -1,0 +1,24 @@
+Section 1: Home screen
+	Mimic the card box, three cards each day, options for navigating through the cards 
+		Color is important, red yellow and blue
+	Small blurb on the bottom of the characteristic card, from the middle column of the heart chart. (Only on the Godhead set)
+
+Section 2: Heart chart
+	These will link to the attribute cards in the middle column, sinful roots on the immediate left and righteous roots on the immediate right.
+	Save them for the users to review later
+	Save as PDF
+	
+Section 3: Naviage through the available cards
+	Righteous roots
+	Sinful roots
+	Attribute cards
+		3 categories
+		
+	
+Notes:
+Google home or amazon echo integration for the heart chart?
+Bible API?
+Keep and offline version of the Bible for a backup
+Look into licensing the Bible
+
+iOS and Android store

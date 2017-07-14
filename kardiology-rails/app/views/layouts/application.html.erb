@@ -15,13 +15,22 @@
 
 
       <% else %>
-        <h1><img src="../../assets/heart_through.svg"> Kardiology 101</h1>
+
+      <div class="container">
+        <div class="col-img">
+          <img src="../../assets/heart_through.svg" class="home-icon"/>
+        </div>
+        <div class="col-title">
+          <h1> Kardiology 101</h1>
+        </div>
+      </div>
+
+      <div class="centered-content">
         Looks like you aren't signed in. Please go ahead and do that. <br>
         <%= link_to "Sign in with Google", "/auth/google_oauth2", id: "sign_in" %>
-      <% end %>
-    </div>
-    <div>
+      </div>
 
+      <% end %>
     </div>
   </body>
 </html>
